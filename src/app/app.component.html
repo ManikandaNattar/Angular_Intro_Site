@@ -1,0 +1,27 @@
+<mat-toolbar style="background-color: darkslateblue;" class="mat-elevation-z5">
+  <mat-toolbar-row>
+    <span>Logo</span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button><mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">settings</mat-icon>
+    </button>
+   <button mat-icon-button> <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">home</mat-icon></button>
+  </mat-toolbar-row>
+
+</mat-toolbar>
+
+<mat-sidenav-container>
+  <mat-sidenav mode="side" opened>
+<mat-nav-list style="width: 200px;">
+<a mat-list-item routerLink='dashboard' style="height: 60px;"><mat-icon>dashboard</mat-icon>DashBoard</a>
+<a mat-list-item routerLink='student' style="height: 60px;"><mat-icon>nfc</mat-icon>Student</a>
+<a mat-list-item style="height: 60px;"><mat-icon>collections_bookmark</mat-icon>Staff Details</a>
+<a mat-list-item style="height: 60px;"><mat-icon>attach_file</mat-icon>Attendance</a>
+<a mat-list-item style="height: 60px;"><mat-icon>filter</mat-icon>FeedBack</a>
+</mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+      <p style="height: 88vh;">
+        <router-outlet></router-outlet>
+    </p>
+  </mat-sidenav-content>
+</mat-sidenav-container>

@@ -1,0 +1,85 @@
+/* You can add global styles to this file, and also import other style files */
+.homepage{
+    color: blue;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 500px;
+
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.example-icon {
+    padding: 0 14px;
+  }
+  
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .mat-drawer-container{
+      background-color: whitesmoke;
+      
+  }
+  .mat-drawer{
+      
+      background-color: darkslateblue;
+  }
+  .mat-elevation-z5{
+      position: relative;
+      z-index: 2;
+  }
+
+  .mat-sidenav a:hover{
+      color: black;
+  }
+
+  table {
+    width: 100%;
+    color: azure;
+    border: black;
+  }
+
+  th.mat-sort-header-sorted {
+    color: black;
+    text-align: center;
+  }
+
+  .mat-cell {
+    color: black;
+text-align: center;
+        font-size:12px;
+        font-family: Verdana,Sans-Serif;
+        display: table-cell;
+        height: 48px;
+  vertical-align: middle;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  border-left: 2px solid rgba(0, 0, 0, 0.12);
+  border-right: 2px solid rgba(0, 0, 0, 0.12);
+       
+}
+.mat-table{
+    background-color: whitesmoke;
+    
+}
+
+.mat-header-cell{
+    font-weight: bold;
+    color: black;
+    font-size: medium;
+    border-color: black;
+     font-size:12px;
+        font-family: Verdana,Sans-Serif;
+        display: table-cell;
+        height: 48px;
+  vertical-align: middle;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  border-left: 2px solid rgba(0, 0, 0, 0.12);
+  border-right: 2px solid rgba(0, 0, 0, 0.12);
+text-align: center;
+}
+
+
+
+
